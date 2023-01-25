@@ -13,6 +13,8 @@ let carrito = [];
 
 let compra = Number(prompt("Bienvenido a DigitalMarket. Si desea comprar en nuestra tienda ingrese 1, en caso contrario ingrese 0."))
 
+console.log(productos)
+
 while(compra != 1 && compra != 0){
     alert("Ese codigo no es valido. Ingrese 1 para ir a nuestra tienda o 0 para salir.")
     compra = Number(prompt("Bienvenido a DigitalMarket. Si desea comprar en nuestra tienda ingrese 1, en caso contrario ingrese 0."))
